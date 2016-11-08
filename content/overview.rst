@@ -10,7 +10,7 @@ GZES is a program library for carrying out the equivalent-source processing grav
 
 -  The inversion is solved as an optimization problem with the simultaneous goals of (i) minimizing a model objective function and (ii) generating synthetic data that match observations to within a degree of misfit consistent with the statistics of those data.
 
--  By minimizing the model objective function, distributions of subsurface susceptibility contrast are found that are smooth in three dimensions creating a better solution when upward continuing data.
+-  By minimizing the model objective function, distributions of subsurface density contrast are found that are smooth in three dimensions creating a better solution when upward continuing data.
 
 -  The regularization parameter (controlling relative importance of objective function and misfit terms) is determined in either of twoe ways, depending upon how much is known about errors in the measured data.
 
