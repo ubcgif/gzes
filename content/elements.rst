@@ -1,5 +1,5 @@
-Elements of the program GRAV3D
-==============================
+Elements of the program GZES
+============================
 
 Introduction
 ------------

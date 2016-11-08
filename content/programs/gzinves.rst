@@ -1,6 +1,6 @@
 .. _gzinves:
 
-GZINV3D
+GZINVES
 =======
 
 This program actually performs the equivalent source re-construction through the inversion of gravity data. Command line usage is:

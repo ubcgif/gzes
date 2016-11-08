@@ -53,6 +53,8 @@ Output files
 
 The program ``gzsenes`` outputs three files. They are:
 
+#. ``gzsenes.log``: Log file with input file, wavelet parameters, and CPU time.
+
 #. ``gzinves.mtx``: The sensitivity matrix file to be used in the inversion. This file contains the sensitivity matrix, mesh, and discretized surface topography. It is produced by the program and it's name is not adjustable. It can get quite large and may be deleted once the work is completed.
 
 #. ``gzinves_full.mtx``: The full sensitivity matrix file (no wavelet compression) to be used in the inversion. This file contains the sensitivity matrix, mesh, and discretized surface topography. It is produced by the program and it's name is not adjustable. It can get quite large and may be deleted once the work is completed. It can be used on its own or in conjunction with the previous matrix file. This will allow the inversion to solve quickly in the wavelet domain and then accurately with the non-compressed sensitivity.
