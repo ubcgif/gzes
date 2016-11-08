@@ -1,2 +1,2 @@
-# gzes
-Gravity equivalent source
+# GZES
+GZES online documentation
